@@ -56,3 +56,12 @@ if successful it will conect to the db.
 3. Open `database/schema.sql`.
 4. Execute the SQL script to create the database tables.
 5. Optionally, execute `database/testdata.sql` to insert sample data.
+
+### Backend Requirements
+
+Flask>=3.1,<4
+flask-cors>=5,<7
+mysql-connector-python>=9,<10
+python-dotenv>=1,<2
+pytest>=8,<10
+
