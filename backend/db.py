@@ -5,7 +5,6 @@ import os
 import mysql.connector
 
 def get_connection():
-    """Open a fresh database connection using environment-based credentials."""
     return mysql.connector.connect(
         host=os.getenv("MYSQL_HOST", "127.0.0.1"),
         port=int(os.getenv("MYSQL_PORT", "3306")),
